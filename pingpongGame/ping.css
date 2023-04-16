@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+#gamebox{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    overflow: hidden;
+    position: absolute;
+}
+
+#userscore , #aiscore{
+    color:white;
+    font-size: 50px;
+    position: absolute;
+    top: 12px;
+    font-family: sans-serif;
+}
+
+#userscore{
+    left:40%;
+}
+
+#aiscore{
+    right: 40%;
+}
+
+.dashlinevertical{
+    border-left: 4px dashed white;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    transform: translateX(-50%);
+}
+
+#userpaddle{
+    width: 20px;
+    background-color: white;
+    height: 100px;
+    position: absolute;
+    left: 5px;
+    border-radius: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#aipaddle{
+    width: 20px;
+    background-color: white;
+    height: 100px;
+    position: absolute;
+    right: 5px;
+    border-radius: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#ball{
+    background-color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    
+
+}
